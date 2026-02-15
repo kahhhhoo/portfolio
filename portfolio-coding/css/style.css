@@ -1,0 +1,604 @@
+
+/* ----------------全体の設定ここから---------------- */
+body {
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 14px;
+	line-height: 2;
+	letter-spacing: 0.08em;
+	color: #333333;
+}
+
+
+h1 {
+	color: #333333;
+	font-size: 80px;
+	border-bottom: 3px solid #333333;
+	letter-spacing: 0.08em;
+	padding-bottom: 10px;
+	line-height: 1;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h4{
+	font-size: 24px;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	opacity: 0.6;
+}
+
+.skill-name,
+.banner-name,
+.web-name {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#profile,
+#skill,
+#banner,
+#Web
+#Movie{
+	padding: 50px 0;
+}
+
+#banner,
+#Web
+#Movie {
+	padding: 25px 0;
+}
+
+#design h2 {
+	margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+	#profile,
+	#skill,
+	#banner,
+	#web{
+	padding: 50px 3%;
+}
+}
+
+/* ----------------全体の設定ここまで---------------- */
+
+
+/* ヘッダーここから */
+
+.pro{
+    max-block-size: 100%;
+	max-inline-size: 100%;
+}
+
+
+header{
+	background-color: #333333;
+	height: 48px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+header nav{
+	height: 100%;
+}
+
+header nav ul{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+/* ヒーローイメージここから */
+.top-hero{
+	height: 800px;
+	background-image: url(../images/nekosan.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.name{
+	font-size: 30px;
+	text-align: center;
+	line-height: 1;
+	padding-top: 10px;
+	letter-spacing: 2px;
+	position: absolute;
+	;
+}
+
+.watashi{
+	font-size: 15px;
+	writing-mode: vertical-rl;
+	text-align: left;
+	letter-spacing: 5px;
+	line-height: 1.5;
+	position: absolute;
+	top: 120px;
+	right: 220px;
+
+	font-family: "Kaisei Opti", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.kawachi{
+	margin-top: 10px;
+}
+
+@media(max-width:550px){
+h1{
+	font-size: 50px;
+}
+
+}
+
+/* プロフィールここから */ 
+
+.name{
+	font-family: "Cardo", serif;
+	font-weight: 700;
+	font-style: normal;	}
+
+.profile-text2{
+	padding-top: -25px;
+}
+
+.oisogasii{
+	padding-top: 20px;
+
+}
+
+.namae1{
+	line-height: 0.5;
+	font-size: 40px;
+	font-family: "Kiwi Maru", serif;
+	font-weight: 500;
+	font-style: normal;
+	margin: 20px 0 50px 50px;
+}
+
+
+.osaka{
+	font-family: "Kiwi Maru", serif;
+	font-weight: 400;
+	font-style: normal;
+	padding-top: 20px;
+	max-width: 100%;
+	margin: 0 0 50px 50px;
+}
+
+.profile-box{
+	display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.oisogasii{
+	font-family: "Kiwi Maru", serif;
+	font-weight: 400;
+	font-style: normal;
+	max-width: 100%;
+
+}
+
+.profile{
+	background-color: #e6e5e5;
+}
+
+
+.banner-name{
+	font-size: 24px;
+}
+
+.profile-box figure{
+	width: 45%;
+}
+	@media(max-width: 767px){
+		.profile-text,.profile-box figure{
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+
+
+	.jikoshokai {
+		position: relative;
+		padding: 0.25em 0;
+		text-align: left;
+
+		font-family: "Kaisei Opti", serif;
+		font-weight: 700;
+		font-style: normal;
+	  }
+
+	  .jikoshokai:after {
+		content: "";
+		display: block;
+		height: 4px;
+		background: -webkit-linear-gradient(to right, rgb(182, 235, 249), transparent);
+		background: linear-gradient(to right, rgb(175, 141, 185), transparent);
+	  }
+			
+	
+
+/* デザインここから */
+
+.designsita{
+	position: relative;
+	padding: 0.25em 0;
+	text-align: left;
+	margin-bottom: 50px;
+
+	font-family: "Kaisei Opti", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.logo{
+	font-family: "Zen Kurenaido", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.logo2{
+	font-family: "Zen Kurenaido", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+
+}
+
+.designsita:after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: -webkit-linear-gradient(to right, rgb(232, 161, 161), transparent);
+	background: linear-gradient(to right, rgb(227, 183, 183), transparent);
+  }
+
+.design{
+	background-color: #e6e5e5;
+}
+
+#design{
+	margin-bottom: 0;
+	background-color: #ededed;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	background-color: #e6e5e5;
+
+}
+
+.banner-box{
+	margin-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+}
+
+.banner-box li{
+	width: 300px;
+}
+
+.banner-box figure img {
+	max-width: 100%;
+	margin: 10px auto;
+}
+
+
+
+.longbanner{
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.longbanner li{
+	width: 450px;
+}
+
+.gramping{
+	justify-content: center;
+
+}
+
+.banner-box figure img{
+	max-width: 100%;
+}
+
+@media(max-width: 670px){
+	.banner-box li{
+		width: 100%;
+	}
+}
+
+.chuumidasi{
+	font-family: "Kiwi Maru", serif;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+}
+
+.komennto{
+	font-family: "Kiwi Maru", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.banner-name{
+	text-align: center;
+}
+
+.web-box{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-size: cover;
+	position: relative;
+	max-inline-size: 100%;
+	
+}
+
+.web-box li {
+	width: 500px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 43px;
+		margin: 10px;
+}
+
+
+.web-inbox{
+	margin: 50px;
+	max-inline-size: 100%;
+}
+
+.web-inbox2{
+	margin: 50px;
+	max-inline-size: 100%;
+
+}
+
+/* .web-box figure img{
+	width: 464px;
+} */
+
+.web-lp{
+	background-image: url(../images/23041695.jpg);
+}
+
+.komidasi{
+	font-family: "Kiwi Maru", serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.gazou{
+	font-family: "Kiwi Maru", serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 12px;
+}
+.komennto2{
+	font-family: "Kiwi Maru", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.logo2{
+	background-color: #e6e5e5;
+	margin-bottom: 0;
+	margin-top: 50;
+
+
+}
+
+/* スキルここから */
+#skill{
+	background-color: #e6e5e5;
+}
+
+.dekiru{
+	position: relative;
+	padding: 0.25em 0;
+	text-align: left;
+
+	font-family: "Kaisei Opti", serif;
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+.dekiru:after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: -webkit-linear-gradient(to right, rgb(232, 161, 161), transparent);
+	background: linear-gradient(to right, rgb(119, 182, 131), transparent);
+  }
+
+  
+
+.skill-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 32px;
+	text-align: justify;
+}
+
+.skill-box li{
+	width: 216px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.skill-box figure img{
+	width: 128px;
+}
+
+.setumei{
+	font-family: "Kiwi Maru", serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+}
+@media(max-width: 494px){
+	.skill-box li{
+		width: 45%;
+	}
+}
+
+/* バナーここから */
+
+/* ウェブここから */
+
+/* フッターここから */
+footer{
+	height: 220px;
+	background-color: #333;
+	font-size: 12px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/nekko.jpg);
+	background-repeat: no-repeat;
+
+
+}
+
+/* LPここから */
+.lp-container {
+    padding: 100px 0 50px;
+	width: min(100%, 1080px);
+    margin: 0 auto;
+}
+
+/* java */
+
+/* ふわっと共通 */
+.fadeIn {
+	opacity: 0;
+	transition: 2s;
+  }
+  .fadeIn.is-show {
+	opacity: 3;
+  }
+
+  /*メディアクエリ*/
+  @media (max-width: 768px) {
+	body {
+	  font-size: 14px;
+	}
+
+	header nav ul{
+		width: 90%;
+	}
+
+	.web-box {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+  }
+
+  .longbanner {
+	justify-content: center;
+  }
+
+  .watashi {
+	right: 120px;
+	}
+
+	.profile-box {
+		margin: 50px;
+		gap: 30px;
+	}
+
+	footer{
+		background-position: center;
+	}
+
+}
+
+  @media (max-width: 550px) {
+	.watashi {
+		top: 119px;
+        right: 54px;
+		font-size: 15px;}
+
+	.web-box li {
+		margin: 10px auto
+	}
+
+	.banner-box figure img {
+		max-width: 100%;
+		margin: 10px auto;
+	}
+
+	footer{
+		background-position: center;
+	}
+
+	.banner-box figure img {
+		margin: 0 auto;
+}
+
+.profile-box{
+	flex-direction: column-reverse;
+	align-items: center;
+}
+  }
+
+  
+
+
